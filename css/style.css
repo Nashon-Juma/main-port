@@ -90,7 +90,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color:white !important;;
+  background-color:rgba(2, 46, 24, 0.521) !important;;
 }
 
 .overlay-mf {
@@ -137,8 +137,8 @@ a:hover {
 
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
-  font-size: 1.1rem;
+  color: #00d3d3;
+  font-size: 1.4rem;
 }
 
 /*--/ Title A /--*/
@@ -151,10 +151,11 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  color: rgba(1, 48, 255, 0.884);
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: #47b3dd;
 }
 
 .line-mf {
@@ -173,13 +174,15 @@ a:hover {
 .title-left {
   font-size: 2rem;
   position: relative;
+  color: white;
+  font-size: 2rem;
 }
 
 .title-left:before {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #0044ff;
   width: 100px;
   bottom: -12px;
 }
@@ -193,10 +196,11 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: rgba(5, 18, 19, 0.904);
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  color: rgba(164, 247, 253, 0.815);
 }
 
 /*------/ Socials /------*/
@@ -221,7 +225,7 @@ a:hover {
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  /* background-color: #0078ff; */
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -342,7 +346,7 @@ a:hover {
 
 .back-to-top i {
   padding-top: 12px;
-  color: #fff;
+  color: #be0a0a;
 }
 
 /* Prelaoder */
@@ -478,7 +482,7 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #fff;
+  color: #00d9ff;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
@@ -490,7 +494,7 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #fff;
+  background-color:#055757a6;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -699,28 +703,12 @@ a:hover {
   margin-left: 10px;
 }
 
-.skill-mf span {
-  color: #4e4e4e;
-}
-
-.skill-mf .progress {
-  background-color: #cde1f8;
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #0078ff;
-}
-
 /*======================================
 //--//-->   SERVICES
 ======================================*/
 
 .service-box {
-  background-color: #fff;
+  background-color: #161919;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -735,7 +723,7 @@ a:hover {
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #ffffff;
 }
 
 .service-box .ico-circle {
@@ -748,10 +736,11 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
+  color: rgb(214, 239, 253);
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: rgb(106, 153, 216);
 }
 
 /*======================================
@@ -787,7 +776,7 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: #040a2c44;
 }
 
 .work-box:hover img {
@@ -833,6 +822,7 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
+  color: #0988ff;
 }
 
 /*======================================
@@ -900,7 +890,7 @@ a:hover {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #0078ff;
+  background-color: #161919;
   border-radius: 4px;
 }
 
@@ -941,7 +931,8 @@ a:hover {
 .box-comments,
 .widget-sidebar {
   padding: 2rem;
-  background-color: rgb(17, 18, 19);
+  background-color:rgba(5, 16, 17, 0.486);
+  color: #f7f9ffd3;
   margin-bottom: 3rem;
 }
 
@@ -995,6 +986,7 @@ a:hover {
 
 .box-comments .list-comments .comment-author {
   font-size: 1.3rem;
+  color: rgba(181, 248, 248, 0.795);
 }
 
 .box-comments .list-comments .comment-details {
@@ -1025,6 +1017,7 @@ a:hover {
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
+  color: rgba(0, 255, 255, 0.884);
 }
 
 .widget-sidebar .list-sidebar li {
@@ -1040,10 +1033,12 @@ a:hover {
   left: 0;
   background-color: #0078ff;
   top: 20px;
+    color: rgba(0, 255, 255, 0.884);
+
 }
 
 .sidebar-search input {
-  background-color: #fff;
+  background-color: white;
   border-radius: 0;
   transition: all 0.5s ease-in-out;
 }
@@ -1254,10 +1249,12 @@ footer .credits a {
 
   .blog-wrapper .article-title {
     font-size: 1.9rem;
+    color: rgba(255, 255, 255, 0.726);
   }
 
   .box-comments .list-comments .comment-author {
     font-size: 1.5rem;
+    color: rgba(181, 248, 248, 0.795);
   }
 }
 
