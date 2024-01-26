@@ -450,7 +450,7 @@ a:hover {
 
 .highlight {
   border-color: #00ffff; /* Blue border color */
-  box-shadow: 15px 15px 15px rgb(207, 5, 66);
+  box-shadow: 15px 15px 15px rgba(0, 79, 182, 0.897);
 }
 .navbar-b.navbar-trans .nav-link:hover,
 .navbar-b.navbar-reduce .nav-link:hover {
